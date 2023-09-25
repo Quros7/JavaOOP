@@ -7,7 +7,7 @@ import ru.MoVe.SSK_bot.console.BotResponse;
 public class Handler {
     public void handle (BotRequest request, AnswerWriter writer) {
         BotResponse ans = new BotResponse();
-        ans.mutate(request.getTextData());
+        ans.changeResponse(request.getTextData());
         writer.writeAnswer(ans);
     }
 }
