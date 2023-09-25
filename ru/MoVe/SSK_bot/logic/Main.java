@@ -1,14 +1,17 @@
 package ru.MoVe.SSK_bot.logic;
-//import ru.MoVe.SSK_bot.InputReader;
-//import ru.MoVe.SSK_bot.MessageHandler;
-//import ru.MoVe.SSK_bot.AnswerWriter;
-import java.util.Scanner;
+
+import ru.MoVe.SSK_bot.console.BotRequest;
+import ru.MoVe.SSK_bot.console.BotResponse;
 
 public class Main {
     public static void main (String[] args) {
-//        int a = 5;
-//        Scanner scanner = new Scanner(System.in);
-//        String str = scanner.nextLine();
-//        System.out.println(str);
+        BotRequest msg = new BotRequest();
+        msg = msg.getUserInput();
+        Handler hl = new Handler();
+        BotResponse rsp = new BotResponse();
+        while (!msg.getTextData().equals("break")) {
+            hl.handle((BotRequest)msg, rsp);
+            msg = msg.getUserInput();
+        }
     }
 }
