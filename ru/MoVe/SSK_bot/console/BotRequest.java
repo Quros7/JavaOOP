@@ -10,4 +10,7 @@ public class BotRequest implements InputReader {
         textData = scanner.nextLine();
         return this;
     }
+    public String getTextData() {
+        return textData;
+    }
 }
