@@ -9,8 +9,8 @@ public class Main {
         msg = msg.getUserInput();
         Handler hl = new Handler();
         BotResponse rsp = new BotResponse();
-        while (!msg.getTextData().equals("break")) {
-            hl.handle((BotRequest)msg, rsp);
+        while (!msg.getTextData().equals("!break")) {
+            hl.handle(msg, rsp);
             msg = msg.getUserInput();
         }
     }
