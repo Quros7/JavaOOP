@@ -1,17 +1,17 @@
 package ru.MoVe.SSK_bot.logic;
 
-import ru.MoVe.SSK_bot.console.BotRequest;
-import ru.MoVe.SSK_bot.console.BotResponse;
+import ru.MoVe.SSK_bot.console.Reader;
+import ru.MoVe.SSK_bot.console.Writer;
 
 public class Main {
     public static void main (String[] args) {
-        BotRequest msg = new BotRequest();
-        msg = msg.getUserInput();
-        Handler hl = new Handler();
-        BotResponse rsp = new BotResponse();
-        while (!msg.getTextData().equals("/break")) {
-            hl.handle(msg, rsp);
-            msg = msg.getUserInput();
+        Reader reader = new Reader();
+        Writer writer = new Writer();
+        Handler handler = new Handler();
+        BotRequest message = reader.getUserInput();
+        while (!message.getRequestText().equals("/break")) {
+            handler.handle(message, writer);
+            message = reader.getUserInput();
         }
     }
 }
