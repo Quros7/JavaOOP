@@ -1,5 +1,5 @@
 package ru.MoVe.SSK_bot;
-import ru.MoVe.SSK_bot.console.BotResponse;
+import ru.MoVe.SSK_bot.logic.BotResponse;
 
 public interface AnswerWriter {
     void writeAnswer(BotResponse response);
