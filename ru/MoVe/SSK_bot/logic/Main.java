@@ -8,8 +8,10 @@ public class Main {
         Reader reader = new Reader();
         Writer writer = new Writer();
         Handler handler = new Handler();
+
         BotRequest message = reader.getUserInput();
-        while (!message.getRequestText().equals("/break")) {
+
+        while (!message.isStopMessage()) {
             handler.handle(message, writer);
             message = reader.getUserInput();
         }
