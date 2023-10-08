@@ -12,7 +12,7 @@ public class BotRequest {
 
     public String getRequestText() {
         return requestText;
-    };
+    }
 
     public boolean isStopMessage() {
         return requestText.equals("/break");

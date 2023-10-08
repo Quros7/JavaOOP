@@ -1,7 +1,5 @@
 package ru.MoVe.SSK_bot.logic;
 
-import ru.MoVe.SSK_bot.AnswerWriter;
-
 public class BotResponse {
     /**
      * response to user's request
