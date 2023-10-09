@@ -4,26 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1294409e-0281-4f5c-8860-73d977038291" name="Changes" comment="added Maven">
+    <list default="true" id="1294409e-0281-4f5c-8860-73d977038291" name="Changes" comment="Refactored">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/JavaOOP.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/AnswerWriter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/InputReader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/MessageHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/console/Reader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/console/Writer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/BotRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/BotResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/Handler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/MoVe/SSK_bot/AnswerWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/AnswerWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/MoVe/SSK_bot/InputReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/InputReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/MoVe/SSK_bot/MessageHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/MessageHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/MoVe/SSK_bot/console/Reader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/console/Reader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/MoVe/SSK_bot/console/Writer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/console/Writer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/MoVe/SSK_bot/logic/BotRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/BotRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/MoVe/SSK_bot/logic/BotResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/BotResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/MoVe/SSK_bot/logic/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/MoVe/SSK_bot/logic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,45 +30,70 @@
         <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;maksim-pff&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="d8780d16-04e5-479c-91ed-417c57ec35b5" />
+        <option name="url" value="https://github.com/Quros7/JavaOOP.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2WXQx4jZ01iLMpAT0DgwuCiP6rf" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "develop",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap"
-  }
-}]]></component>
-  <component name="TaskManager">
-    <task id="LOCAL-00001" summary="added Maven">
-      <option name="closed" value="true" />
-      <created>1696869762630</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1696869762630</updated>
-    </task>
-    <option name="localTasksCounter" value="2" />
-    <servers />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;
+  }
+}</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1294409e-0281-4f5c-8860-73d977038291" name="Changes" comment="Refactored" />
+      <created>1696877092555</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696877092555</updated>
+    </task>
+    <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactored" />
-    <MESSAGE value="added Maven" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
   </component>
 </project>
