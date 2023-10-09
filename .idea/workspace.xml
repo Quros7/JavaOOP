@@ -4,27 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1294409e-0281-4f5c-8860-73d977038291" name="Changes" comment="Refactored">
+    <list default="true" id="1294409e-0281-4f5c-8860-73d977038291" name="Changes" comment="added Maven">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/JavaOOP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/AnswerWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/InputReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/MessageHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/console/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/console/Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/BotRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/BotResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "git-widget-placeholder": "develop",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
-}</component>
+}]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="added Maven">
+      <option name="closed" value="true" />
+      <created>1696869762630</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1696869762630</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactored" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactored" />
+    <MESSAGE value="added Maven" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Maven" />
   </component>
 </project>
