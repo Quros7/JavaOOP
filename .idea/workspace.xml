@@ -5,22 +5,119 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1294409e-0281-4f5c-8860-73d977038291" name="Changes" comment="Refactored">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/JavaOOP.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/JavaOOP.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/JavaOOP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/AnswerWriter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/InputReader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/MessageHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/console/Reader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/console/Writer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/BotRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/BotResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/Handler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOOP/ru/MoVe/SSK_bot/logic/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ru/MoVe/SSK_bot/logic/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/ru/MoVe/SSK_bot/logic/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2WXq4DgahPrfJKmZ9exuD75E7f0" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "vlad's",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/lopar/OneDrive/Документы/GitHub/JavaOOP"
   }
-}</component>
+}]]></component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="20" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="ru.MoVe.SSK_bot.logic.Main" />
+      <module name="JavaOOP" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.MoVe.SSK_bot.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ru.MoVe.SSK_bot.logic.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.MoVe.SSK_bot.logic.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.MoVe.SSK_bot.logic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.ru.MoVe.SSK_bot.logic.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ru.MoVe.SSK_bot.logic.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1294409e-0281-4f5c-8860-73d977038291" name="Changes" comment="Refactored" />
+      <created>1696889080758</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1696889080758</updated>
+    </task>
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
