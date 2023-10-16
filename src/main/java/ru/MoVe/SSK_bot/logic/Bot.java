@@ -27,42 +27,21 @@ public class Bot extends TelegramLongPollingBot implements AnswerWriter {
             String messageText = message.getText();
             String chatId = message.getChatId().toString();
 
-            // new Handler().handle(null, this);
-
-            // генерируем ответ
-            String response = messageText;
-            //Создаем объект класса SendMessage - наш будущий ответ пользователю
-            SendMessage outMessage = new SendMessage();
-
-            // Добавляем в наше сообщение id чата и ответ
-            outMessage.setChatId(chatId);
-            outMessage.setText(response);
-
-            // Отправка в чат
-            try {
-                execute(outMessage);
-            } catch (TelegramApiException e) {
-                e.printStackTrace();
-            }
+            BotRequest request = new BotRequest(messageText, chatId);
+            new Handler().handle(request, this);
         }
     }
 
+    /**
+     * Отправка ответного сообщения в чат
+     */
     @Override
     public void writeAnswer(BotResponse response) {
-
+        SendMessage message = new SendMessage(response.getResponseID(), response.getResponseText());
+        try {
+            execute(message);
+        } catch (TelegramApiException e) {
+            e.printStackTrace();
+        }
     }
-    //    public String parseMessage(String textMsg) {
-//        String response;
-//
-//        //Сравниваем текст пользователя с нашими командами, на основе этого формируем ответ
-//        if(textMsg.equals("/start"))
-//            response = "Приветствую, бот знает много цитат. Жми /get, чтобы получить случайную из них";
-//        else if(textMsg.equals("/get"))
-//            response = storage.getRandQuote();
-//        else
-//            response = "Сообщение не распознано";
-//
-//        return response;
-//    }
-
 }

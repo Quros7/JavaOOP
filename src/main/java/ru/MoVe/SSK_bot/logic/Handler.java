@@ -5,7 +5,8 @@ import ru.MoVe.SSK_bot.MessageHandler;
 
 public class Handler implements MessageHandler {
     public void handle (BotRequest request, AnswerWriter writer) {
-        BotResponse answer = new BotResponse(request.getRequestText());
-        writer.writeAnswer(answer);
+        BotResponse response = new BotResponse(request.getRequestText(), request.getRequestID());
+        response.CreateAnswer();
+        writer.writeAnswer(response);
     }
 }
