@@ -19,7 +19,7 @@ public class BotRequest {
         return requestID;
     }
 
-    public boolean isStopMessage() {
-        return requestText.equals("/break");
-    }
+//    public boolean isStopMessage() {
+//        return requestText.equals("/break");
+//    }
 }

@@ -3,6 +3,7 @@ package ru.MoVe.SSK_bot.logic;
 import org.telegram.telegrambots.meta.TelegramBotsApi;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
 import org.telegram.telegrambots.updatesreceivers.DefaultBotSession;
+import ru.MoVe.SSK_bot.telegram.Bot;
 
 public class Main {
     public static void main (String[] args) {
