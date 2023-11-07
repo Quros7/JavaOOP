@@ -23,19 +23,4 @@ public class BotResponse {
     public void setResponseText(String data) {
         this.responseText = data;
     }
-
-    public void CreateAnswer() {
-        String response;
-
-        //Сравниваем текст пользователя с нашими командами, на основе этого формируем ответ
-        if(responseText.equals("/start"))
-            response = "Здравствуй, студент!\nБот Совета Студенческих Корпусов (ССК) поможет тебе узнать основную информацию об общежитии.\nПомощь по функционалу ---> /info";
-        else if(responseText.equals("/info"))
-            response = "Пока функционала нет, но вы держитесь.";
-        else
-            response = responseText;
-
-        responseText = response;
-    }
-
 }

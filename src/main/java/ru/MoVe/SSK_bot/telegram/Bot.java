@@ -25,8 +25,8 @@ public class Bot extends TelegramLongPollingBot implements AnswerWriter {
     @Override
     public void onUpdateReceived(Update update) {
         if (update.hasMessage() && update.getMessage().hasText()) {
-            UpdateToRequest utr = new UpdateToRequest();
-            BotRequest request = utr.CreateRequest(update);
+            UpdateToRequest updateToRequest = new UpdateToRequest();
+            BotRequest request = updateToRequest.CreateRequest(update);
 
             new Handler().handle(request, this);
         }
@@ -37,7 +37,11 @@ public class Bot extends TelegramLongPollingBot implements AnswerWriter {
      */
     @Override
     public void writeAnswer(BotResponse response) {
-        SendMessage message = new SendMessage(response.getResponseID(), response.getResponseText());
+        SendMessage message = SendMessage.builder()
+                .chatId(response.getResponseID())
+                .text(response.getResponseText())
+                .parseMode("HTML").build();
+
         try {
             execute(message);
         } catch (TelegramApiException e) {

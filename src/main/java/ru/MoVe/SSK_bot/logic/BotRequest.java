@@ -18,8 +18,4 @@ public class BotRequest {
     public String getRequestID() {
         return requestID;
     }
-
-//    public boolean isStopMessage() {
-//        return requestText.equals("/break");
-//    }
 }

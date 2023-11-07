@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1294409e-0281-4f5c-8860-73d977038291" name="Changes" comment="Refactored">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/BotRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/BotRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/BotResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/BotResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/telegram/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/telegram/Bot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/logic/BotRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/logic/BotRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/logic/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/logic/Handler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/telegram/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/telegram/Bot.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -153,6 +162,17 @@
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactored" />
