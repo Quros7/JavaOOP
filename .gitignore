@@ -1,0 +1,13 @@
+*.ear
+*.zip
+*tar.gz
+*.rar
+
+#IDE setttings
+.idea/
+target/
+out/
+venv/
+
+#Test enviroment
+test/
