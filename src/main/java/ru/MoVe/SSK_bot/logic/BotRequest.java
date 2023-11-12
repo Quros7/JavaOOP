@@ -22,8 +22,8 @@ public class BotRequest {
     public String getRequestID() {
         return requestID;
     }
-    public boolean isButtonPressed() {
-        return buttonPressed;
+    public boolean buttonIsNotPressed() {
+        return !buttonPressed;
     }
     public String getCallData() {
         return callData;

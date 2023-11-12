@@ -23,7 +23,7 @@ public class Handler implements MessageHandler {
           Отдельная проверка нужна, потому что в ответном сообщении есть клавиатура
           и для неё нужен отдельный конструктор BotRequest-а
          */
-        if((!request.isButtonPressed())&&(request.getRequestText().equals("/info"))){
+        if((request.buttonIsNotPressed())&&(request.getRequestText().equals("/info"))){
             InlineKeyboardMarkup keyboard = createKeyboard();
             response = new BotResponse(responseText, requestId, keyboard);
         }
@@ -40,19 +40,21 @@ public class Handler implements MessageHandler {
         String callData = request.getCallData();
         String responseText="";
 
-        if(!request.isButtonPressed()) {
+        if(request.buttonIsNotPressed()) {
             responseText = switch (requestText) {
-                case "/start" -> "Здравствуй, студент!\n" +
-                        "Бот Совета Студенческих Корпусов (ССК) поможет тебе узнать основную информацию об общежитии.\n" +
-                        "Помощь по функционалу —> /help";
+                case "/start" -> """
+                        Здравствуй, студент!
+                        Бот Совета Студенческих Корпусов (ССК) поможет тебе узнать основную информацию об общежитии.
+                        Помощь по функционалу —> /help""";
 
-                case "/help" -> "Бот подскажет тебе доступную информацию про СК №6.\n" +
-                        "Доступные команды:\n" +
-                        "/start - начальный экран\n" +
-                        "/info - общая информация об общежитии\n" +
-                        "/contacts - все важные контакты общежития\n" +
-                        "/events - предстоящие мероприятия\n" +
-                        "/feedback - оставить отзыв";
+                case "/help" -> """
+                        Бот подскажет тебе доступную информацию про СК №6.
+                        Доступные команды:
+                        /start - начальный экран
+                        /info - общая информация об общежитии
+                        /contacts - все важные контакты общежития
+                        /events - предстоящие мероприятия
+                        /feedback - оставить отзыв""";
 
                 case "/info" -> "<u>Общая характеристика общежития №6:</u>\n" +
                         "Студенческое общежитие №6 находится по " +
