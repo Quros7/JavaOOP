@@ -29,17 +29,10 @@ public class Bot extends TelegramLongPollingBot implements AnswerWriter {
         BotRequest request = updateToBotRequest.CreateRequest(update);
         new Handler().handle(request, this);
 
-        if(update.hasCallbackQuery()) {
-            AnswerCallbackQuery close = AnswerCallbackQuery.builder()
-                    .callbackQueryId(update.getCallbackQuery().getId()).build();
-            try {
-                execute(close);
-            } catch (TelegramApiException e) {
-                throw new RuntimeException(e);
-            }
+        if (update.hasCallbackQuery()) {
+            closeCallbackQuery(update);
         }
     }
-
     /**
      * Фунция, отправляющая сообщение в чат
      */
@@ -55,6 +48,20 @@ public class Bot extends TelegramLongPollingBot implements AnswerWriter {
             execute(message);
         } catch (TelegramApiException e) {
             e.printStackTrace();
+        }
+    }
+
+    /**
+     * Метод, закрывающий CallbackQuery
+     * @param update Telegram update
+     */
+    private void closeCallbackQuery(Update update) {
+        AnswerCallbackQuery close = AnswerCallbackQuery.builder()
+                .callbackQueryId(update.getCallbackQuery().getId()).build();
+        try {
+            execute(close);
+        } catch (TelegramApiException e) {
+            throw new RuntimeException(e);
         }
     }
 }
