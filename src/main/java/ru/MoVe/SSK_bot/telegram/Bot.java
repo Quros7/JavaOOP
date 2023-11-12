@@ -24,23 +24,21 @@ public class Bot extends TelegramLongPollingBot implements AnswerWriter {
 
     @Override
     public void onUpdateReceived(Update update) {
-        if (update.hasMessage() && update.getMessage().hasText()) {
-            UpdateToRequest updateToRequest = new UpdateToRequest();
-            BotRequest request = updateToRequest.CreateRequest(update);
-
-            new Handler().handle(request, this);
-        }
+        UpdateToBotRequest updateToBotRequest = new UpdateToBotRequest();
+        BotRequest request = updateToBotRequest.CreateRequest(update);
+        new Handler().handle(request, this);
     }
 
     /**
-     * Отправка ответного сообщения в чат
+     * Фунция, отправляющая сообщение в чат
      */
     @Override
     public void writeAnswer(BotResponse response) {
         SendMessage message = SendMessage.builder()
                 .chatId(response.getResponseID())
                 .text(response.getResponseText())
-                .parseMode("HTML").build();
+                .parseMode("HTML")
+                .replyMarkup(response.getInlineKeyboardMarkup()).build();
 
         try {
             execute(message);
