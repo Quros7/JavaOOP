@@ -1,6 +1,7 @@
 package ru.MoVe.SSK_bot.telegram;
 
 import org.telegram.telegrambots.bots.TelegramLongPollingBot;
+import org.telegram.telegrambots.meta.api.methods.AnswerCallbackQuery;
 import org.telegram.telegrambots.meta.api.objects.Update;
 import org.telegram.telegrambots.meta.api.methods.send.SendMessage;
 import org.telegram.telegrambots.meta.exceptions.TelegramApiException;
@@ -27,6 +28,16 @@ public class Bot extends TelegramLongPollingBot implements AnswerWriter {
         UpdateToBotRequest updateToBotRequest = new UpdateToBotRequest();
         BotRequest request = updateToBotRequest.CreateRequest(update);
         new Handler().handle(request, this);
+
+        if(update.hasCallbackQuery()) {
+            AnswerCallbackQuery close = AnswerCallbackQuery.builder()
+                    .callbackQueryId(update.getCallbackQuery().getId()).build();
+            try {
+                execute(close);
+            } catch (TelegramApiException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
 
     /**

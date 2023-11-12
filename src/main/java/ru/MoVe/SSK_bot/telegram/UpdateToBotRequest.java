@@ -29,9 +29,6 @@ public class UpdateToBotRequest {
             buttonPressed = update.hasCallbackQuery();
             callData = update.getCallbackQuery().getData();
             chatId = update.getCallbackQuery().getMessage().getChatId().toString();
-//            AnswerCallbackQuery close = AnswerCallbackQuery.builder()
-//                    .callbackQueryId(update.getCallbackQuery().getId()).build();
-            //TODO:РАЗОБРАТЬСЯ, КАК ЗА-EXECUTE-ИТЬ AnswerCallbackQuery
         }
         return new BotRequest(messageText, chatId, buttonPressed, callData);
     }
