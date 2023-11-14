@@ -1,23 +1,22 @@
 package ru.MoVe.SSK_bot.logic;
-
-import org.telegram.telegrambots.meta.api.objects.replykeyboard.InlineKeyboardMarkup;
-
 /**
  * Класс-ответ на сообщение
  */
 public class BotResponse {
     private final String responseText;
     private final String responseID;
-    private InlineKeyboardMarkup keyboard;
+    private final boolean hasKeyboard;
+    //private final String commandCalledKeyboard;
 
     public BotResponse(String data, String id) {
         this.responseText = data;
         this.responseID = id;
+        hasKeyboard = false;
     }
-    public BotResponse(String data, String id, InlineKeyboardMarkup keyboard) {
+    public BotResponse(String data, String id, boolean hasKeyboard) {
         this.responseText = data;
         this.responseID = id;
-        this.keyboard = keyboard;
+        this.hasKeyboard = hasKeyboard;
     }
     public String getResponseText() {
         return responseText;
@@ -27,7 +26,7 @@ public class BotResponse {
         return responseID;
     }
 
-    public InlineKeyboardMarkup getInlineKeyboardMarkup() {
-        return keyboard;
+    public boolean hasKeyboard() {
+        return hasKeyboard;
     }
 }

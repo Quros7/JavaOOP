@@ -6,14 +6,10 @@ package ru.MoVe.SSK_bot.logic;
 public class BotRequest {
     private final String requestText;
     private final String requestID;
-    private final boolean buttonPressed;
-    private final String callData;
 
-    public BotRequest(String data, String id, boolean buttonPressed, String callData) {
+    public BotRequest(String data, String id) {
         this.requestText = data;
         this.requestID = id;
-        this.buttonPressed = buttonPressed;
-        this.callData = callData;
     }
 
     public String getRequestText() {
@@ -21,11 +17,5 @@ public class BotRequest {
     }
     public String getRequestID() {
         return requestID;
-    }
-    public boolean buttonIsNotPressed() {
-        return !buttonPressed;
-    }
-    public String getCallData() {
-        return callData;
     }
 }
