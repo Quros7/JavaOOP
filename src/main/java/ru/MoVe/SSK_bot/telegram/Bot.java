@@ -19,11 +19,11 @@ public class Bot extends TelegramLongPollingBot implements AnswerWriter {
     private static final String BOT_TOKEN = "6425872456:AAEcpNhm_8efu23sNm0yWFyNvJnVtgJnETQ";
     private static final String BOT_NAME = "SSK_bot";
 
-    public String getBotToken() {
+    public final String getBotToken() {
         return BOT_TOKEN;
     }
 
-    public String getBotUsername() {
+    public final String getBotUsername() {
         return BOT_NAME;
     }
 
@@ -39,6 +39,7 @@ public class Bot extends TelegramLongPollingBot implements AnswerWriter {
     private final cd_Internet internet = new cd_Internet();
     private final cd_Tennis tennis = new cd_Tennis();
     private final cd_Studyroom studyroom = new cd_Studyroom();
+
     private final Handler handler = new Handler(List.of(start, info, contacts, events, feedback,
             help, guests, internet, tennis, studyroom));
 

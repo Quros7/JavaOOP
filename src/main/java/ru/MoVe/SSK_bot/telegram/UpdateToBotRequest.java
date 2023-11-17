@@ -17,7 +17,7 @@ public class UpdateToBotRequest {
 
         if(update.hasMessage()) {
             Message message = update.getMessage();
-            messageText = message.getText();
+            messageText = message.getText().trim();
             chatId = message.getChatId().toString();
         }
         else if(update.hasCallbackQuery()){
