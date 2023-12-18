@@ -14,7 +14,7 @@ public class c_WrongInput implements Command {
 
     @Override
     public void execute(BotRequest request, AnswerWriter writer) {
-        String responseText = "Неверный ввод.";
+        String responseText = "Неверный ввод";
         writer.writeAnswer(new BotResponse(responseText, request.getRequestID()));
         c_Help help = new c_Help();
         help.execute(request, writer);

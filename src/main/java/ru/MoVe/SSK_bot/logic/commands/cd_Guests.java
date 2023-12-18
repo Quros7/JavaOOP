@@ -17,7 +17,14 @@ public class cd_Guests implements Command {
 
     @Override
     public void execute(BotRequest request, AnswerWriter writer) {
-        String responseText = "Тут будет инфа о гостях...";
+        String responseText = """
+                Жильцы могут приводить гостей.
+                Им можно приходить с 8:00, но они обязательно должны уйти до 22:00.
+                (Иначе больше к вам никого не допустят :) )
+                Чтобы гости попали в общежитие, вы должны оставить на посту охраны:
+                   • свой электронный пропуск
+                   • документ гостя (любой, кроме паспорта)
+                """;
         writer.writeAnswer(new BotResponse(responseText, request.getRequestID()));
     }
 }

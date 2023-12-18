@@ -17,7 +17,22 @@ public class c_Contacts implements Command {
 
     @Override
     public void execute(BotRequest request, AnswerWriter writer) {
-        String responseText = "Тут будут контакты...";
+        String responseText = """
+                Общежитие УрФУ №6: ул. Чапаева 16а
+                
+                <u>Администрация СК№6</u>:
+                Маркова Галина Николаевна- Заведующая СК №6
+                    тел: +7-(343)-257-01-61
+                Крутикова Эльвира Асхатовна - Заведующая хозяйством
+                
+                Дежурный слесарь: +7-(982)-639-08-12
+                Дежурный электрик: +7-(908)-916-86-40
+                
+                Паспортный стол: ул. Чапаева 16
+                
+                Группа общежития ВКонтакте:
+                https://vk.com/hostel_urfu_6
+                """;
         writer.writeAnswer(new BotResponse(responseText, request.getRequestID()));
     }
 }

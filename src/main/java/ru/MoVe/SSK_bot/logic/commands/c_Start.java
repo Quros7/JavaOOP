@@ -20,7 +20,8 @@ public class c_Start implements Command {
         String responseText = """
                 Здравствуй, студент!
                 Бот Совета Студенческих Корпусов (ССК) поможет тебе узнать основную информацию об общежитии.
-                Помощь по функционалу —> /help""";
+                Помощь по функционалу —> /help
+                """;
         writer.writeAnswer(new BotResponse(responseText, request.getRequestID()));
     }
 }

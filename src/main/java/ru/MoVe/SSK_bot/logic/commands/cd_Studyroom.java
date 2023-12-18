@@ -17,7 +17,14 @@ public class cd_Studyroom implements Command {
 
     @Override
     public void execute(BotRequest request, AnswerWriter writer) {
-        String responseText = "Тут будет инфа об учебной комнаты...";
+        String responseText = """
+                В общежитии есть читальный зал, в котором вы можете
+                позаниматься учебой или просто посидеть в тихой обстановке.
+                
+                <i>Если он открыт, то заходите и пользуйтесь.
+                Если же закрыт, то обратитесь на пост охраны и вежливо! попросите ключ от читального зала,
+                оставив взамен свой пропуск или студенческий билет</i>
+                """;
         writer.writeAnswer(new BotResponse(responseText, request.getRequestID()));
     }
 }

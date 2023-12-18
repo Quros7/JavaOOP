@@ -17,7 +17,18 @@ public class c_Events implements Command {
 
     @Override
     public void execute(BotRequest request, AnswerWriter writer) {
-        String responseText = "Тут будут мероприятия...";
+        String responseText = """
+        Несколько раз в месяц ССК (Совет Студенческих Корпусов)
+        проводит мероприятия для студентов:
+        
+           • <i>Развлекательные (настольные игры, киновечера)</i>
+           • <i>Образовательные (лекции, мастер-классы)</i>
+           • <i>Спортивные (йога, турниры по теннису)</i>
+        
+        Актуальное расписание вы можете найти в группе
+        общежития №6 ВКонтакте:
+        https://vk.com/hostel_urfu_6
+        """;
         writer.writeAnswer(new BotResponse(responseText, request.getRequestID()));
     }
 }

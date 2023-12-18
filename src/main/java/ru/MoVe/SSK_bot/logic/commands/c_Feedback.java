@@ -17,7 +17,10 @@ public class c_Feedback implements Command {
 
     @Override
     public void execute(BotRequest request, AnswerWriter writer) {
-        String responseText = "Тут будет обратная связь...";
+        String responseText = """
+                Если у вас есть, что нам сказать,
+                то вы можете поделиться этим в своём следующем сообщении
+                """;
         writer.writeAnswer(new BotResponse(responseText, request.getRequestID()));
     }
 }

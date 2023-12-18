@@ -24,7 +24,8 @@ public class c_Help implements Command {
                         /info - общая информация об общежитии
                         /contacts - все важные контакты общежития
                         /events - предстоящие мероприятия
-                        /feedback - оставить отзыв""";
+                        /feedback - оставить отзыв
+                        """;
         writer.writeAnswer(new BotResponse(responseText, request.getRequestID()));
     }
 }

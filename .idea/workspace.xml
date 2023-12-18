@@ -5,14 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1294409e-0281-4f5c-8860-73d977038291" name="Changes" comment="Added .gitignore">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/telegram/UpdateToBotRequest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/BotRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/BotRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/BotResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/BotResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/telegram/Bot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/telegram/Bot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/telegram/UpdateToRequest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/logic/BotRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/logic/BotRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Contacts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Contacts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Events.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Feedback.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Feedback.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Help.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_WrongInput.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/c_WrongInput.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/cd_Guests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/cd_Guests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/cd_Internet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/cd_Internet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/cd_Studyroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/cd_Studyroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/cd_Tennis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/MoVe/SSK_bot/logic/commands/cd_Tennis.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/logic/BotResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/logic/BotResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/logic/Handler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/logic/Handler.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/telegram/Bot.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/ru/MoVe/SSK_bot/telegram/Bot.class" afterDir="false" />

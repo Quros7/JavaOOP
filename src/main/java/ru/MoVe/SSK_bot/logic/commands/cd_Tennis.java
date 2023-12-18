@@ -17,7 +17,16 @@ public class cd_Tennis implements Command {
 
     @Override
     public void execute(BotRequest request, AnswerWriter writer) {
-        String responseText = "Тут будет инфа о теннисном зале...";
+        String responseText = """
+                В общежитии есть теннисный зал, в котором вы можете
+                поиграть в теннис, занять диванчик, чтобы позаниматься учёбой или отдохнуть,
+                или вы можете потренироваться перед зеркалами
+                на дальней от входа стене комнаты.
+                
+                <i>Если зал открыт, то заходите и пользуйтесь.
+                Если же закрыт, то обратитесь на пост охраны и вежливо! попросите ключ от теннисного зала,
+                оставив взамен свой пропуск или студенческий билет.</i>
+                """;
         writer.writeAnswer(new BotResponse(responseText, request.getRequestID()));
     }
 }
